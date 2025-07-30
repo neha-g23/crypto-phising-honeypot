@@ -18,34 +18,6 @@ def submit():
 
     return render_template('index.html', error="Invalid Login Details")
 
-@app.route('/private.key')
-def private_key():
-    ip = request.remote_addr
-    with open("honeypot.log", "a") as f:
-        f.write(f"[File Access] IP: {ip} tried to access private.key\n")
-    return "\nfakekey5679==\n", 403
-
-@app.route('/.env')
-def env_file():
-    ip = request.remote_addr
-    with open("honeypot.log", "a") as f:
-        f.write(f"[File Access] IP: {ip} tried to access .env\n")
-    return "API_KEY=fakeapikey123\nSECRET_KEY=fakesecret456", 403
-
-@app.route('/admin')
-def fake_admin():
-    ip = request.remote_addr
-    with open("honeypot.log", "a") as f:
-        f.write(f"[ADMIN] Access from {ip}\n")
-    return "404 Not Found"
-
-@app.route('/wallet.db')
-def fake_wallet_db():
-    ip = request.remote_addr
-    with open("honeypot.log", "a") as f:
-        f.write(f"[WALLET.DB] Access from {ip}\n")
-    return "Access Denied"
-
 @app.route('/recover', methods=['GET', 'POST'])
 def recover():
     if request.method == 'POST':
