@@ -1,0 +1,47 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 676-626-614
+INFO:root:[HOME] Access from 127.0.0.1
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 18:35:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/nehag/crypto-honeypot/app.py', reloading
+Captured seed phrase: hello its me :))
+Captured seed phrase: hello its me :))
+Captured seed phrase: blah blah 2nd 
+Captured seed phrase: blah blah 2nd 
+Captured seed phrase: h 3rd
+Captured from IP: 127.0.0.1, Seed phrase: 4th time
+[Seed Capture] IP: 127.0.0.1 - Seed phrase: 5th dredgfh
+[File Access] IP: 127.0.0.1 tried to access private.key
+[File Access] IP: 127.0.0.1 tried to access private.key
+[Seed Capture] IP: 127.0.0.1 - Seed phrase: lkswdcer6th
+[Seed Capture] IP: 127.0.0.1 - Seed phrase: ' OR 1=1 --
+[WALLET.DB] Access from 127.0.0.1
+[Seed Capture] IP: 127.0.0.1 - Seed phrase: ricky
+[WALLET.DB] Access from 127.0.0.1
+[WALLET.DB] Access from 127.0.0.1
+[WALLET.DB] Access from 127.0.0.1
+[WALLET.DB] Access from 127.0.0.1
+[Seed Capture] IP: 127.0.0.1 - Seed phrase: None
+[Login Capture] IP: 127.0.0.1 - Email: jh@kmk, Password: jnjn
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: mjnkj@u, Password: kmlmlkm
+[Login Attempt] IP: 127.0.0.1 - Email: mjnkj@u, Password: kmlmlkm
+[Login Attempt] IP: 127.0.0.1 - Email: mjnkj@u, Password: kmlmlkm
+[Login Attempt] IP: 127.0.0.1 - Email: mjnkj@u, Password: kmlmlkm
+[Login Attempt] IP: 127.0.0.1 - Email: mjnkj@u, Password: kmlmlkm
+[Login Attempt] IP: 127.0.0.1 - Email: mjnkj@u, Password: kmlmlkm
+[Login Attempt] IP: 127.0.0.1 - Email: mjnkj@u, Password: kmlmlkm
+[Login Attempt] IP: 127.0.0.1 - Email: mjnkj@u, Password: kmlmlkm
+[Recovery Page] IP: 127.0.0.1 - Seed phrase: lklkjm7th
+[Recovery Page] IP: 127.0.0.1 - Seed phrase: lklkjm7th
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk
+[Login Attempt] IP: 127.0.0.1 - Email: hgjhbj@jik, Password: kjmkjmk

